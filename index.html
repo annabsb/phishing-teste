@@ -1,24 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>⚠ Alerta de Segurança</title>
-<style>
-    body { font-family: Arial, sans-serif; background: #f4f4f4; text-align: center; margin: 0; padding: 0; }
-    .container { max-width: 600px; margin: 50px auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
-    h1 { color: red; font-size: 2rem; }
-    p { font-size: 1.2rem; }
-</style>
-<!-- Script do contador de acessos -->
-<script src="https://cdn.counter.dev/script.js" data-id="2aa4213a-a6d6-405e-86f7-ffe5300a2e0d" data-utcoffset="-3"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>⚠ Alerta de Segurança - Teste de Phishing</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      width: 100%;
+      max-width: 900px;
+      background-color: #2c3e50;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    header img {
+      height: 40px;
+      width: auto;
+    }
+
+    main {
+      background: white;
+      max-width: 900px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    main h2 {
+      color: #e74c3c;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin-bottom: 25px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    main .logo-img {
+      max-width: 200px;
+      margin: 0 auto 30px;
+      display: block;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #777;
+      max-width: 900px;
+      text-align: center;
+    }
+  </style>
+
+  <!-- Script do contador -->
+  <script src="https://cdn.counter.dev/script.js" data-id="2aa4213a-a6d6-405e-86f7-ffe5300a2e0d" data-utcoffset="-3"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>⚠ Você clicou em um link suspeito!</h1>
-        <p>Este foi apenas um teste interno de segurança.</p>
-        <p>Em um golpe real, seus dados poderiam estar em risco.</p>
-        <p><strong>Mantenha-se atento!</strong></p>
-    </div>
+  <header>
+    <h1>Alerta de Segurança</h1>
+    <img src="LINK_DA_SUA_IMAGEM_AQUI" alt="Logo da Empresa" />
+  </header>
+
+  <main>
+    <h2>Você clicou em um link suspeito!</h2>
+    <img
+      src="LINK_DA_IMAGEM_CENTRAL_AQUI"
+      alt="Imagem de alerta"
+      class="logo-img"
+    />
+    <p>
+      Este é um teste interno de phishing para aumentar a conscientização de segurança. 
+      Clicar em links desconhecidos pode colocar em risco seus dados e sistemas. 
+      Sempre confirme com o time de TI se o e-mail recebido é confiável antes de clicar em qualquer link.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Sua Empresa - Segurança da Informação
+  </footer>
 </body>
 </html>
-
